@@ -1,12 +1,28 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# E-commerce Frontend (React + Vite + Bootstrap)
 
-Currently, two official plugins are available:
+This is the frontend for a mini e-commerce web app using **Vite**, **React**, and **Bootstrap**. It integrates with a Node.js backend (JWT authentication + items & cart APIs).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+- **User Authentication**: Login and sign-up support using JWT.
+- **Product Listing**: Displays items with filters for category (dropdown) and price range.
+- **Add to Cart**: Logged-in users can add products to their cart.
+- **Cart Page**: View, update quantity, and remove items. Cart persists across sessions.
+- **Responsive UI**: Built with Bootstrap for quick and clean layout.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Clone the repo:
+
+git clone https://github.com/Sajidaunnisa/Assignment-Frontend.git
+cd Assignment-Frontend
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm run dev
